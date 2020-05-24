@@ -1,0 +1,110 @@
+﻿Build started 2016/09/24 13:18:57.
+     1>Project "D:\Project\13-IRHT\IRHT\IRHT.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\IRHT.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ImageClass.cpp IRHT.cpp IRHTDlg.cpp
+         ImageClass.cpp
+     1>ImageClass.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>c:\toolkits\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>C:\Toolkits\opencv\build\include\opencv2/legacy/compat.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>ImageClass.cpp(338): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(339): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(340): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(341): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(342): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(343): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(344): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(345): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(360): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(362): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(389): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>ImageClass.cpp(445): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(454): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>ImageClass.cpp(606): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>ImageClass.cpp(873): warning C4309: '=' : truncation of constant value
+     1>ImageClass.cpp(889): warning C4309: '=' : truncation of constant value
+     1>ImageClass.cpp(1157): warning C4309: '=' : truncation of constant value
+     1>ImageClass.cpp(1159): warning C4309: '=' : truncation of constant value
+     1>ImageClass.cpp(1231): warning C4309: '=' : truncation of constant value
+     1>ImageClass.cpp(1256): warning C4309: '=' : truncation of constant value
+     1>ImageClass.cpp(1386): warning C4309: '=' : truncation of constant value
+     1>ImageClass.cpp(1394): warning C4309: '=' : truncation of constant value
+     1>ImageClass.cpp(1410): warning C4309: '=' : truncation of constant value
+     1>ImageClass.cpp(1496): warning C4101: 'i' : unreferenced local variable
+     1>ImageClass.cpp(1499): warning C4101: 'imgData' : unreferenced local variable
+     1>ImageClass.cpp(1496): warning C4101: 'j' : unreferenced local variable
+     1>ImageClass.cpp(1616): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(1617): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(1992): warning C4101: 'center' : unreferenced local variable
+     1>ImageClass.cpp(1993): warning C4101: 'axes' : unreferenced local variable
+     1>ImageClass.cpp(2250): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(2288): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(2289): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(2368): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(2385): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(2863): warning C4305: '=' : truncation from 'double' to 'float'
+     1>ImageClass.cpp(2864): warning C4305: '=' : truncation from 'double' to 'float'
+     1>ImageClass.cpp(2865): warning C4305: '=' : truncation from 'double' to 'float'
+         IRHT.cpp
+     1>IRHT.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>d:\project\13-irht\irht\IRHT.h : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>d:\project\13-irht\irht\IRHTDlg.h : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>c:\toolkits\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>C:\Toolkits\opencv\build\include\opencv2/legacy/compat.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+         IRHTDlg.cpp
+     1>IRHTDlg.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>d:\project\13-irht\irht\IRHT.h : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>d:\project\13-irht\irht\IRHTDlg.h : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>c:\toolkits\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>C:\Toolkits\opencv\build\include\opencv2/legacy/compat.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\IRHT.res" IRHT.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Project\13-IRHT\Release\IRHT.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d2413.lib opencv_contrib2413.lib opencv_core2413.lib opencv_features2d2413.lib opencv_flann2413.lib opencv_gpu2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib opencv_legacy2413.lib opencv_ml2413.lib opencv_nonfree2413.lib opencv_objdetect2413.lib opencv_ocl2413.lib opencv_photo2413.lib opencv_stitching2413.lib opencv_superres2413.lib opencv_ts2413.lib opencv_video2413.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\Project\13-IRHT\Release\IRHT.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Project\13-IRHT\Release\IRHT.lib" /MACHINE:X86 /SAFESEH Release\IRHT.res
+         Release\CKProcessTimeCounter.obj
+         Release\ImageClass.obj
+         Release\IRHT.obj
+         Release\IRHTDlg.obj
+         Release\stdafx.obj
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvEllipse
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvInitFont
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvReleaseImage
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvLoadImage
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvCloneImage
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvSmooth
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvNamedWindow
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvShowImage
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvSaveImage
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvCreateStructuringElementEx
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvMorphologyEx
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvCreateImage
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvGetSize
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvMerge
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvLine
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvCircle
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvNot
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvCanny
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvCreateHist
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvSet
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvPutText
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvDilate
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvErode
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvCopy
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvSetZero
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvCreateMat
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cv2DRotationMatrix
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvWarpAffine
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvCartToPolar
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvPolarToCart
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvDestroyAllWindows
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvCvtColor
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvSolve
+     1>ImageClass.obj : error LNK2001: unresolved external symbol _cvThreshold
+     1>D:\Project\13-IRHT\Release\IRHT.exe : fatal error LNK1120: 34 unresolved externals
+     1>Done Building Project "D:\Project\13-IRHT\IRHT\IRHT.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.86

@@ -1,0 +1,79 @@
+﻿Build started 2016/09/24 14:23:14.
+     1>Project "D:\Project\13-IRHT\IRHT\IRHT.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\IRHT.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt IRHT.cpp IRHTDlg.cpp ImageClass.cpp
+         IRHT.cpp
+     1>IRHT.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>d:\project\13-irht\irht\IRHT.h : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>d:\project\13-irht\irht\IRHTDlg.h : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>c:\toolkits\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>C:\Toolkits\opencv\build\include\opencv2/legacy/compat.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+         IRHTDlg.cpp
+     1>IRHTDlg.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>d:\project\13-irht\irht\IRHT.h : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>d:\project\13-irht\irht\IRHTDlg.h : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>c:\toolkits\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>C:\Toolkits\opencv\build\include\opencv2/legacy/compat.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>IRHTDlg.cpp(235): warning C4244: '=' : conversion from 'wchar_t' to 'char', possible loss of data
+     1>IRHTDlg.cpp(242): warning C4244: '=' : conversion from 'wchar_t' to 'char', possible loss of data
+         ImageClass.cpp
+     1>ImageClass.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>c:\toolkits\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>C:\Toolkits\opencv\build\include\opencv2/legacy/compat.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>ImageClass.cpp(340): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(341): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(342): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(343): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(344): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(345): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(346): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(347): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(362): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(364): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(391): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>ImageClass.cpp(447): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(456): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>ImageClass.cpp(608): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>ImageClass.cpp(875): warning C4309: '=' : truncation of constant value
+     1>ImageClass.cpp(891): warning C4309: '=' : truncation of constant value
+     1>ImageClass.cpp(1159): warning C4309: '=' : truncation of constant value
+     1>ImageClass.cpp(1161): warning C4309: '=' : truncation of constant value
+     1>ImageClass.cpp(1233): warning C4309: '=' : truncation of constant value
+     1>ImageClass.cpp(1258): warning C4309: '=' : truncation of constant value
+     1>ImageClass.cpp(1388): warning C4309: '=' : truncation of constant value
+     1>ImageClass.cpp(1396): warning C4309: '=' : truncation of constant value
+     1>ImageClass.cpp(1412): warning C4309: '=' : truncation of constant value
+     1>ImageClass.cpp(1498): warning C4101: 'i' : unreferenced local variable
+     1>ImageClass.cpp(1501): warning C4101: 'imgData' : unreferenced local variable
+     1>ImageClass.cpp(1498): warning C4101: 'j' : unreferenced local variable
+     1>ImageClass.cpp(1618): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(1619): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(1994): warning C4101: 'center' : unreferenced local variable
+     1>ImageClass.cpp(1995): warning C4101: 'axes' : unreferenced local variable
+     1>ImageClass.cpp(2252): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(2290): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(2291): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(2370): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(2387): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageClass.cpp(2865): warning C4305: '=' : truncation from 'double' to 'float'
+     1>ImageClass.cpp(2866): warning C4305: '=' : truncation from 'double' to 'float'
+     1>ImageClass.cpp(2867): warning C4305: '=' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Project\13-IRHT\x64\Release\IRHT.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d2413.lib opencv_contrib2413.lib opencv_core2413.lib opencv_features2d2413.lib opencv_flann2413.lib opencv_gpu2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib opencv_legacy2413.lib opencv_ml2413.lib opencv_nonfree2413.lib opencv_objdetect2413.lib opencv_ocl2413.lib opencv_photo2413.lib opencv_stitching2413.lib opencv_superres2413.lib opencv_ts2413.lib opencv_video2413.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\Project\13-IRHT\x64\Release\IRHT.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Project\13-IRHT\x64\Release\IRHT.lib" /MACHINE:X64 x64\Release\IRHT.res
+         x64\Release\CKProcessTimeCounter.obj
+         x64\Release\ImageClass.obj
+         x64\Release\IRHT.obj
+         x64\Release\IRHTDlg.obj
+         x64\Release\stdafx.obj
+         Generating code
+     1>d:\project\13-irht\irht\imageclass.cpp(2226): warning C4700: uninitialized local variable 'counter' used
+         Finished generating code
+         IRHT.vcxproj -> D:\Project\13-IRHT\x64\Release\IRHT.exe
+     1>Done Building Project "D:\Project\13-IRHT\IRHT\IRHT.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.90

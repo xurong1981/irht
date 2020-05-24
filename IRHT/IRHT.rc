@@ -1,0 +1,254 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\IRHT.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\IRHT.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 IRHT"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "IRHT，1.0 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2011",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_IRHT_DIALOG DIALOGEX 0, 0, 343, 235
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "IRHT"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Input",IDC_STATIC,7,7,329,37
+    PUSHBUTTON      "OpenFile",IDC_BUTTON_OpenFile,14,20,38,15
+    EDITTEXT        IDC_EDIT_InputFile,60,21,268,13,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "Segmentation + IRHT",IDC_STATIC,7,48,329,73
+    PUSHBUTTON      "K-Means",IDC_BUTTON_KMeans,14,62,38,15
+    PUSHBUTTON      "FCM",IDC_BUTTON_Fcm,57,62,38,15
+    PUSHBUTTON      "IRHT",IDC_BUTTON_IRHT,14,84,38,15,WS_DISABLED
+    PUSHBUTTON      "RHT",IDC_BUTTON_RHT,57,84,38,15,WS_DISABLED
+    PUSHBUTTON      "Clear",IDC_BUTTON_WindowsClear,100,84,38,15,WS_DISABLED
+    PUSHBUTTON      "Snake",IDC_BUTTON_Snake,143,84,38,15,WS_DISABLED
+    CTEXT           "ClassNum :",IDC_STATIC,143,63,38,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_ClassNum,185,63,17,14,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_RIGHT
+    CTEXT           "K :",IDC_STATIC,186,84,16,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_KIRHT,209,84,35,14,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_RIGHT
+    COMBOBOX        IDC_COMBO_BackgroundType,209,64,35,39,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Skeleton",IDC_CHECK_Skeleton,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,293,83,39,14
+    COMBOBOX        IDC_COMBO_OutputType,251,64,35,39,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Results",IDC_STATIC,7,125,329,103
+    LTEXT           "Segmentation Times :",IDC_STATIC,14,133,73,14,SS_CENTERIMAGE
+    LTEXT           "",IDC_STATIC_SegmentationTimes,89,133,32,14,SS_CENTERIMAGE
+    LTEXT           "Segmentation Time :",IDC_STATIC,14,146,73,14,SS_CENTERIMAGE
+    LTEXT           "",IDC_STATIC_SegmentationTimer,89,146,32,14,SS_CENTERIMAGE
+    LTEXT           "IRHT Times :",IDC_STATIC,126,133,53,14,SS_CENTERIMAGE
+    LTEXT           "",IDC_STATIC_IRHTTimes,186,133,54,14,SS_CENTERIMAGE
+    LTEXT           "IRHT Time :",IDC_STATIC,126,146,53,14,SS_CENTERIMAGE
+    LTEXT           "",IDC_STATIC_IRHTTimer,186,146,54,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_Gaussians,11,165,104,58,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_IRHTResults,118,165,212,58,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "Bi-Filter",IDC_CHECK_BilateralFilter,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,252,83,39,14
+    PUSHBUTTON      "Edge-Dect",IDC_BUTTON_EdgeDetection,101,63,38,15
+    CONTROL         "Head",IDC_CHECK_Head,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,293,63,39,14
+    PUSHBUTTON      "iIRHT-1",IDC_BUTTON_iIRHT1,14,102,38,15,WS_DISABLED
+    PUSHBUTTON      "iIRHT-2",IDC_BUTTON_iIRHT2,57,102,38,15,WS_DISABLED
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "IRHT.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "IRHT.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_IRHT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 336
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 228
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_IRHT_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO_BackgroundType, 0x403, 6, 0
+0x6c42, 0x6361, 0x006b, 
+    IDC_COMBO_BackgroundType, 0x403, 6, 0
+0x6857, 0x7469, 0x0065, 
+    IDC_COMBO_OutputType, 0x403, 7, 0
+0x6f4e, 0x6d72, 0x6c61, "\000" 
+    IDC_COMBO_OutputType, 0x403, 5, 0
+0x7247, 0x7965, "\000" 
+    IDC_COMBO_OutputType, 0x403, 7, 0
+0x7242, 0x6769, 0x7468, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 IRHT(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\IRHT.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
